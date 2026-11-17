@@ -1,0 +1,14 @@
+[
+  {
+    "narration": "From search input, find component container",
+    "sourcePath": { "fileName": "root" },
+    "func": "closest",
+    "arguments": { "selector": "[data-role='table-parent'], .card-body, .container, div" }
+  },
+  {
+    "narration": "Locate search feedback display element",
+    "sourcePath": { "fileName": "previous" },
+    "func": "querySelector",
+    "arguments": { "selector": "#search-feedback, [data-role='search-feedback']" }
+  }
+]

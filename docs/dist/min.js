@@ -332,7 +332,7 @@ var R = [{
 	})
 }, ie = {
 	name: "dom-traversal-functions",
-	version: "v3"
+	version: "1.3.1"
 };
 // ../dom-traversal-functions/src/v3/index.js
 ((e) => {
@@ -342,7 +342,7 @@ var R = [{
 		...t
 	});
 })({ table: X });
-// src/v1/actions/onSearch/instructions.json
+// src/v2/actions/onSearch/instructions.json
 var ae = [{
 	narration: "From search input, find component container",
 	sourcePath: { fileName: "root" },

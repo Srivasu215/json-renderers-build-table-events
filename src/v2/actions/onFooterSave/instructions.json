@@ -1,0 +1,8 @@
+[
+  {
+    "narration": "From clicked save button, traverse to closest tfoot row",
+    "sourcePath": { "fileName": "root" },
+    "func": "closest",
+    "arguments": { "selector": "tfoot tr" }
+  }
+]

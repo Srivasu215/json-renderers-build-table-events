@@ -1,0 +1,22 @@
+[
+  {
+    "event": "input",
+    "selector": "input[type='search'], input[name='search'], [data-role='table-search'], #tableSearch, .table-search-input",
+    "action": "onSearch"
+  },
+  {
+    "event": "click",
+    "selector": "tfoot button, button.ks-btn-save, [data-role='table-save']",
+    "action": "onFooterSave"
+  },
+  {
+    "event": "click",
+    "selector": "tbody button, button.ks-btn-show, [data-role='row-action']",
+    "action": "onRowAction"
+  },
+  {
+    "event": "click",
+    "selector": "tbody tr",
+    "action": "onRowClick"
+  }
+]

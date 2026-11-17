@@ -1,0 +1,8 @@
+[
+  {
+    "narration": "From clicked element, traverse to closest tbody table row",
+    "sourcePath": { "fileName": "root" },
+    "func": "closest",
+    "arguments": { "selector": "tbody tr" }
+  }
+]
