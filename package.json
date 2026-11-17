@@ -1,0 +1,23 @@
+{
+  "name": "json-renderers-build-table-events",
+  "version": "1.0.0",
+  "description": "Instruction-driven event orchestration and DOM traversal for table components",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./actions": "./src/v1/actions/index.js",
+    "./bindings": "./src/v1/bindings/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npx @keshavsoft/build-cli"
+  },
+  "dependencies": {
+    "dom-primitive-engine": "file:../dom-primitive-engine",
+    "dom-traversal-functions": "file:../dom-traversal-functions"
+  }
+}
