@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "dom-primitive-bindings": "^1.7.3",
-    "dom-primitive-engine": "^1.19.1"
+    "dom-primitive-engine": "^1.19.1",
+    "dom-traversal-functions": "file:../dom-traversal-functions"
   }
 }
