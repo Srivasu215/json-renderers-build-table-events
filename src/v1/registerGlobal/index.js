@@ -14,3 +14,4 @@ export const registerGlobal = (inDefinition) => {
 };
 
 export default registerGlobal;
+
