@@ -6,8 +6,8 @@
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",
-    "./actions": "./src/v1/actions/index.js",
-    "./bindings": "./src/v1/bindings/index.js"
+    "./actions": "./src/actions.js",
+    "./bindings": "./src/bindings.js"
   },
   "files": [
     "src",

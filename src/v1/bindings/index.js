@@ -1,12 +1,6 @@
 import bindings from "./bindings.json" with { type: "json" };
 import * as actions from "../actions/index.js";
 
-/**
- * Attaches delegated listeners to the root container based on declarative bindings.json.
- *
- * @param {HTMLElement} rootElement - Component's root container.
- * @param {object} state - Active state instance.
- */
 export const attachBindings = (rootElement, state) => {
     // 1. Input Event Delegation (Search)
     rootElement.addEventListener("input", (event) => {
